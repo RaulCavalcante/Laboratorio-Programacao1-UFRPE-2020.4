@@ -38,4 +38,5 @@ Samgung S20 | R$ 3200
 * Ao mostrar a lista de telefones comprados pelo **cliente fiel**, não pode repetir os telefones de mesmo modelo. **Ex: [ ‘S20’,’S20’,’M51’,’M51’ ] -> [ ’S20’,’M51’ ]** 
 * A entrada do modelo sera pela sua sigla **Ex: Samsung M51 -> 'M51'** 
 * Entrada dos funcionarios: **Gerente -> 'ger' | Funcionario 1 -> 'fun1' | Funcionario 2 -> 'fun2' | Funcionario 3 -> 'fun3' | Estagiario -> 'est'**
+* Funcionamento do "Cashback":**1 compra de joão, ele comprou 3 S10 , total a pagar R$ 7500 (3*2500) - cashback R$ 750. Na 2 compra de joão, ele comprou 3 S10, total a pagar R$ 6750 (7500 - 750) - cashback de R$ 675. 3 compra de joão, ele comprou 1 S10, total a pagar R$ 1850 (2500 - 650) - cashback de R$ 0. João gastou no total R$ 16100 (7500+6750+1850)**      
 
