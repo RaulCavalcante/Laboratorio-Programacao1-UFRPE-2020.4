@@ -1,8 +1,12 @@
 # Exemplos de entradas (teste)
-lista_Vendas = [['ger',1,'M51','Pedro'], ['fun1',3,'A31','Laura'] , ['fun2',2,'NT20','João'] , 
-['fun2',1,'S10','Matheus'] , ['est',4,'S10','Pedro'] , ['est',2,'S10','Pedro'] , ['fun2',4,'M51','Caio'] ]
+##lista_Vendas = [['ger',1,'M51','Pedro'], ['fun1',3,'A31','Laura'] , ['fun2',2,'NT20','João'] , 
+##['fun2',1,'S10','Matheus'] , ['est',4,'S10','Pedro'] , ['est',2,'S10','Pedro'] , ['fun2',4,'M51','Caio'] ]
 #lista_Vendas = [['ger',4,'S10','Raul'],['ger',2,'A31','Raul'],['ger',4,'M51','Raul'],['fun3',15,'A31','Arthur'],['est',2,'S10','Ricardo'],['est',2,'S10','Ricardo']]
-# lista_vendas = [['ger',3,'M51','A'],['est',1,'A31','B'],['fun1',5,'S10','A'],['fun3',3,'NT20','C'],['ger',10,'S20','B']]
+#lista_Vendas = [['ger',3,'M51','A'],['est',1,'A31','B'],['fun1',5,'S10','A'],['fun3',3,'NT20','C'],['ger',10,'S20','B']]
+
+lista_Vendas = eval(input("Digite sua lista: "))
+
+#print(lista_Vendas)
 
 menu = [['M51',2300],['S10',2500],['NT20',2700],['A31',1500],['S20',3200]] # Menu da loja Samsung 
 funcionario = [['ger',0,0],['fun1',0,0],['fun2',0,0],['fun3',0,0],['est',0,0]] #['nome',quant,valor] no final valor = bonificação
